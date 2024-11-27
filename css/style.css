@@ -1,0 +1,23 @@
+.div1{
+    margin-top: 60px;
+  background-color: red;  
+}
+.div2{
+    background-color: brown;
+    position: relative;
+}
+.div1,.div2{
+    height: 200px;
+    width: 300px;
+    background-color: 3px solid black;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    list-style: none;
+}

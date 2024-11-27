@@ -1,0 +1,16 @@
+.parent{
+ height: 100vh; 
+ width: 100vw;
+ border: 2px solid black;  
+ background-color: white;
+ position: relative;
+}
+.child{
+    height: 100%;
+    border: 2px solid black;
+    background-color: bisque;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+}
